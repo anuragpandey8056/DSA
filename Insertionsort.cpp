@@ -17,12 +17,12 @@ int main()
         cin >> arr[i];
     }
 
-    // cout << "output before\n";
+    cout << "output before\n";
 
     // for (int i = 0; i < s; i++)
     // {
 
-    //     cout << &arr[i];
+    //     cout << &arr[i]<<"\t"<<"\n";
     // }
 
     // logic is there=============
@@ -43,7 +43,12 @@ int main()
     {
         cout << arr[i] << "\t";
     }
-    cout << "\n"
-         << cnt;
+    cout << "\n" << cnt;
+
+
+    //    for (int i = 0; i < s; i++)
+    // {
+    //     cout << &arr[i] << "\t";
+    // }
     return 0;
 }
