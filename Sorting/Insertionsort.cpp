@@ -8,24 +8,14 @@ int main()
     cin >> s;
     int cnt = 0;
     int arr[s];
-
-    // Input ====================
+    // Input========================================================================
     int sorted, temp;
     for (int i = 0; i < s; i++)
     {
-
         cin >> arr[i];
     }
-
     cout << "output before\n";
-
-    // for (int i = 0; i < s; i++)
-    // {
-
-    //     cout << &arr[i]<<"\t"<<"\n";
-    // }
-
-    // logic is there=============
+    // logic is there===============================================================
     for (int i = 1; i < s; i++)
     {
         sorted = i;
@@ -38,17 +28,13 @@ int main()
             cnt++;
         }
     }
-    // output ====================
+    // output===========================================================================
     for (int i = 0; i < s; i++)
     {
         cout << arr[i] << "\t";
     }
-    cout << "\n" << cnt;
+    cout << "\n"
+         << cnt;
 
-
-    //    for (int i = 0; i < s; i++)
-    // {
-    //     cout << &arr[i] << "\t";
-    // }
     return 0;
 }

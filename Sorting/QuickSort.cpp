@@ -27,7 +27,7 @@ int srt(int arr[], int low, int high)
     arr[low] = arr[q];
     arr[q] = temp;
     return q;
-}
+}     
 void qs(int arr[], int low, int high)
 {
     if (low < high)
